@@ -1,0 +1,67 @@
+*{
+padding: 0;
+margin: 0;
+}
+main{
+   
+    padding-top: 30px;
+}
+.first{
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-top: 20px;
+    background-color: rgb(245, 232, 214);
+    box-sizing: border-box;
+    width: auto;
+
+}
+.text{
+    background-color: white;
+    height: 400px;
+    width: 270px;
+    border-radius:12px 0px;
+    box-sizing: border-box;
+  
+}
+.txt{
+    
+  padding: 16px 20px;
+}
+.photo{
+    height: 400px;
+    width: 270px;
+    border-radius: 12px 0px 0px 12px;
+    background-image: url(desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.btn{
+    background-color: rgb(47, 112, 47);
+    border: none;
+    padding: 8px 75px;
+    color: white;
+    margin-top: 35px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.btn svg{
+    margin-left: 10px;
+    
+    
+}
+.price strong{
+    padding: 10px;
+    color: rgb(47, 112, 47);
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.first,.photo h1{
+    font-family: 'Times New Roman', Times, serif;
+}
